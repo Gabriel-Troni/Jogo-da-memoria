@@ -6,23 +6,24 @@
 
 body {
     height: 100vh;
+    width: 100%;
     display: flex;
     background-image: url("./imagens/imagem-de-fundo.jpg");
 }
 
 .memory-game {
-    height: 640px;
-    width: 640px;
+    height: 100vh;
+    width: 600px;
     margin: auto;
-    margin-left: 40%;
+    margin-left: 52%;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
 }
 
 .card {
-    height: calc(33.333% - 10px);
-    width: calc(25% - 10px);
+    height: calc(24% - 9px);
+    width: calc(20% - 10px);
     margin: 5px;
     position: relative;
     box-shadow: 1px, 1px, 1px rgba(1, 1, 1, .3);
@@ -41,7 +42,7 @@ body {
 .card-back {
     height: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     position: absolute;
     border-radius: 5px;
     background: #51021c;
@@ -54,4 +55,65 @@ body {
 
 .card.flip {
     transform: rotateY(180deg);
+}
+
+.footer {
+    float: left;
+    bottom: 0;
+    margin: 2%;
+    border: 5px #51021c solid;
+    border-radius: 5px;
+    position: absolute;
+    background-color: black;
+    padding: 2% 5% 2% 5%;
+}
+
+.feitoPor {
+    color: #51021c;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.feitoPor a {
+    text-decoration: none;
+    color: white;
+}
+
+.feitoPor a:hover {
+    color: #51021c;
+}
+
+@media (max-width: 800px) {
+    body {
+        max-width: 800px;
+        background-size: cover;
+    }
+
+    .memory-game {
+        height: 68vh;
+        margin: 15px;
+        margin-top: 105px;
+        display: flex;
+    }
+
+    .card {
+        height: calc(90px);
+        width: calc(20% - 10px);
+        margin: 5px;
+    }
+
+    .card-front,
+    .card-back {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    }
+
+    .footer {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
 }
