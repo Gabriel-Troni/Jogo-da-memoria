@@ -7,13 +7,14 @@
 body {
     height: 100vh;
     display: flex;
-    background-color: rgb(10, 119, 119);
+    background-image: url("./imagens/imagem-de-fundo.jpg");
 }
 
 .memory-game {
     height: 640px;
     width: 640px;
     margin: auto;
+    margin-left: 40%;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
@@ -40,10 +41,10 @@ body {
 .card-back {
     height: 100%;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     position: absolute;
     border-radius: 5px;
-    background: #ffffff;
+    background: #51021c;
     backface-visibility: hidden; /* retira o verso do elemento */
 }
 
