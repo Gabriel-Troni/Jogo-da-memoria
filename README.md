@@ -12,8 +12,8 @@ A memory game based on Hellsing Ultimate's animation and manga developed for a w
 - Ensure responsiveness for different screen sizes.
 
 ## Screenshots
-![Main screen](./assets/screen.png)
-![Main screen](./assets/screen.png)
+![Main screen](./assets/imagens/mainScreen.png)
+![Mobile screen](./assets/imagens/mobileSreen.png)
 
 ## Acknowledgements
 A special thanks to Digital Innovation One (DIO) for hosting the bootcamp that included this project, and to instructor Gabriela Pinheiro for presenting the project.
