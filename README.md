@@ -13,8 +13,8 @@ A memory game based on Hellsing Ultimate's animation and manga developed for a w
 
 ## Screenshots
 <div style="display: flex;">
-  <img src="./assets/imagens/mainScreen.png" alt="Main screen" style="height: 50vh;">
-  <img src="./assets/imagens/mobileSreen.png" alt="Mobile screen" style="height: 50vh;">
+  <img src="./assets/imagens/mobileSreen.png" alt="Mobile screen" style="width: 20%;">
+  <img src="./assets/imagens/mainScreen.png" alt="Main screen" style="width: 70%;">
 </div>
 
 ## Acknowledgements
